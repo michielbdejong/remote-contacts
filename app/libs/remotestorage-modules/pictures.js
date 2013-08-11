@@ -6,7 +6,7 @@
 // unless it starts with a dollar sign ($)
 //
 
-remoteStorage.defineModule('pictures', function(privateClient, publicClient) {
+RemoteStorage.defineModule('pictures', function(privateClient, publicClient) {
 
   var isDir = remoteStorage.util.isDir;
 
