@@ -1,1 +1,8 @@
 Remote Contacts
+
+To build (assumes you have both node and ruby):
+
+    npm install
+    gem install compass
+    gem install bower
+    grunt build --force
